@@ -5827,6 +5827,7 @@ footer {
     }
 
     .footer__wrap-reverse {
+        width: 280px;
         display: flex;
         flex-direction: column-reverse;
     }
