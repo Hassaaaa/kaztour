@@ -135,4 +135,3 @@ const otherElement = document.querySelector('.triangle');
 rotateBtn.addEventListener('click', () => {
   otherElement.classList.toggle('rotated');
 });
-
