@@ -21,6 +21,11 @@ body {
     min-width: 320px;
 }
 
+.main__container {
+    min-width: 100%;
+    max-width: 100%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
