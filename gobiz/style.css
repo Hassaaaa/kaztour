@@ -19,7 +19,6 @@
 body {
     background-color: #f5f5f5;
     min-width: 320px;
-    max-width: 1920px;
 }
 
 .container {
@@ -875,6 +874,7 @@ main {
 }
 
 .recommend__img {
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -885,8 +885,8 @@ main {
 
 .recommend__img img {
     position: relative;
-    width: 290px;
-    height: 190px;
+    width: 100%;
+    height: auto;
     top: 0;
     left: 0;
 }
@@ -953,7 +953,7 @@ main {
 }
 
 .recommend__info {
-    width: 290px;
+    width: 100%;
 }
 
 .recommend__checks {
@@ -1099,7 +1099,7 @@ main {
     font-size: 13px;
     color: #000000;
     padding: 10px 10px;
-    margin: 0px 30px;
+    margin: 0px 10px;
     cursor: pointer;
 }
 
@@ -1403,6 +1403,10 @@ main {
 .about__services {
     width: 100%;
     margin-bottom: 40px;
+}
+
+.about__back {
+    width: 100%;    
 }
 
 .services__info {
@@ -5885,6 +5889,62 @@ footer {
     }
 
 }
+
+@media (min-width: 1920px) and (max-width: 2048px) {
+    .swiper {
+        width: 1060px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2048px) and (max-width: 2176px) {
+    .swiper {
+        width: 1131px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2176px) and (max-width: 2304px) {
+    .swiper {
+        width: 1202px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2304px) and (max-width: 2432px) {
+    .swiper {
+        width: 1272px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2432px) and (max-width: 2560px) {
+    .swiper {
+        width: 1343px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2560) {
+    .swiper {
+        width: 1414px;
+    }
+    .map__loc, .map__route {
+        justify-content: space-evenly;
+    }
+}
+
+
 
 /* adapt */
 
