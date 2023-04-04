@@ -2472,6 +2472,7 @@ footer {
     .spec__mark {
         margin: 10px 5px 0 0;
     }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
@@ -2694,7 +2695,7 @@ footer {
     }
 
     .simillar__marks {
-        display: none;
+        display: flex;
     }
 
     .simillar__like {
@@ -3306,7 +3307,7 @@ footer {
     }
 
     .simillar__marks {
-        display: none;
+        display: flex;
     }
 
     .simillar__like {
@@ -5893,6 +5894,134 @@ footer {
         display: block;
     }
 
+}
+
+@media (min-width: 1600px) {
+    .simillar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: #fff;
+        padding-bottom: 80px;
+    }
+    
+    .simillar__container {
+        width: 80%;
+    }
+    
+    .simillar__heading {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 25px;
+        color: #23262F;
+        padding: 40px 0;
+    }
+    
+    .simillar__offers {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 30px;
+        justify-content: space-between;
+    }
+    
+    .simillar__offer {
+        width: auto;
+        height: auto;
+        padding: 40px;
+        border: 2px solid #E7EAF1;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    
+    .simillar__img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .simillar__img {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .simillar__img img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .simillar__mark {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0px 10px 0px;
+    }
+    
+    .simillar__marks {
+        position: absolute;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 11px;
+        width: 46%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        text-transform: uppercase;
+        top: 0;
+        left: 0;
+    }
+    
+    .simillar__marks p:nth-child(1) {
+        color: #fff;
+        padding: 5px 7px;
+        background: #0099FF;
+        border-radius: 2px;
+        margin: 0 2% 0 0;
+    }
+    
+    .simillar__marks p:nth-child(2) {
+        color: #fff;
+        padding: 5px 7px;
+        background: #5EB362;
+        border-radius: 2px;
+    }
+    
+    .simillar__like {
+        position: absolute;
+        top: 2px;
+        left: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        min-width: 30px;
+    }
+    
+    .simillar__like img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .simillar__info {
+        width: 100% ;
+    }
 }
 
 @media (min-width: 1920px) and (max-width: 2048px) {
